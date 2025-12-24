@@ -1,0 +1,45 @@
+.subscribe {
+  background: linear-gradient(135deg, var(--primary) 0%, var(--primary-dark) 100%);
+  color: white;
+  text-align: center;
+}
+
+.subscribe-content h2 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+.subscribe-content p {
+  opacity: 0.9;
+  margin-bottom: 2rem;
+  font-size: 1.1rem;
+}
+
+.subscribe-form {
+  display: flex;
+  gap: 15px;
+  justify-content: center;
+  flex-wrap: wrap;
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+.subscribe-form input {
+  flex: 1;
+  min-width: 250px;
+  padding: 15px 25px;
+  border: none;
+  border-radius: 30px;
+  font-size: 1rem;
+  outline: none;
+}
+
+.subscribe-form .btn {
+  background: white;
+  color: var(--primary);
+}
+
+.subscribe-form .btn:hover {
+  background: var(--secondary);
+  color: white;
+}
